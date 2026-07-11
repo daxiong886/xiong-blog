@@ -1,4 +1,3 @@
-baseURL = 'https://你的netlify地址.netlify.app/'
-languageCode = 'zh-cn'
+baseURL = 'https://xiong-blog.netlify.app/'
 title = '熊凌志的博客'
 theme = 'PaperMod'
