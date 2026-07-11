@@ -1,4 +1,4 @@
-baseURL = 'https://xiong-blog.netlify.app/'
+baseURL = 'https://daxiong886.github.io/xiong-blog/'
 title = 'Lingzhi的博客'
 theme = 'PaperMod'
 [params]

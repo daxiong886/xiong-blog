@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>熊凌志的博客</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on 熊凌志的博客</description>
+    <title>Lingzhi的博客</title>
+    <link>https://xiong-blog.netlify.app/</link>
+    <description>Recent content on Lingzhi的博客</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Jul 2026 18:56:55 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jul 2026 22:58:42 +0800</lastBuildDate>
+    <atom:link href="https://xiong-blog.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>我的第一篇博客</title>
-      <link>http://localhost:1313/post/hello/</link>
+      <title>一切的开始</title>
+      <link>https://xiong-blog.netlify.app/post/hello/</link>
       <pubDate>Sat, 11 Jul 2026 18:56:55 +0800</pubDate>
-      <guid>http://localhost:1313/post/hello/</guid>
-      <description>&lt;h1 id=&#34;欢迎来到我的博客&#34;&gt;欢迎来到我的博客&lt;/h1&gt;
-&lt;p&gt;这是我的第一篇文章。&lt;/p&gt;
-&lt;p&gt;这里可以写学习记录、技术笔记、生活随笔。&lt;/p&gt;</description>
+      <guid>https://xiong-blog.netlify.app/post/hello/</guid>
+      <description>欢迎来到我的博客</description>
+    </item>
+    <item>
+      <title>为什么要写博客</title>
+      <link>https://xiong-blog.netlify.app/post/second/</link>
+      <pubDate>Sat, 11 Jul 2026 20:40:29 +0800</pubDate>
+      <guid>https://xiong-blog.netlify.app/post/second/</guid>
+      <description>学习 Tairan 和 Sinya,记录自己的一切所思所想。</description>
+    </item>
+    <item>
+      <title>未来要写什么</title>
+      <link>https://xiong-blog.netlify.app/post/third/</link>
+      <pubDate>Sat, 11 Jul 2026 22:58:42 +0800</pubDate>
+      <guid>https://xiong-blog.netlify.app/post/third/</guid>
+      <description>记录学习、经历与思考，留下一个人与世界相处的轨迹。</description>
     </item>
   </channel>
 </rss>
