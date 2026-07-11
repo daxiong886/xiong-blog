@@ -1,3 +1,8 @@
 baseURL = 'https://xiong-blog.netlify.app/'
 title = 'Lingzhi的博客'
 theme = 'PaperMod'
+[params]
+  mainSections = ["post"]
+
+[page]
+  sortBy = "weight"
