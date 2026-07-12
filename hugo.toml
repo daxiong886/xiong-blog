@@ -2,7 +2,11 @@ baseURL = 'https://daxiong886.github.io/xiong-blog/'
 title = 'Lingzhi的博客'
 theme = 'PaperMod'
 [params]
-  mainSections = ["post"]
+    mainSections = ["post"]
+
+    ShowReadingTime = true
+    ShowPostTags = true
+    ShowBreadCrumbs = true
 
 [page]
   sortBy = "weight"
