@@ -4,6 +4,8 @@ draft = false
 title = '我的第一个博客是如何搭建的'
 summary = '从选择 Hugo 到部署 GitHub Pages，记录我建立个人博客的完整过程。'
 weight = 4
+tags = ['Hugo', 'GitHub Pages', '博客搭建', '技术记录']
+categories = ['技术']
 +++
 很长一段时间，我都觉得自己应该有一个属于自己的地方，用来记录一些东西。
 
