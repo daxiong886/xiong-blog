@@ -107,12 +107,15 @@ https://github.com/adityatelange/hugo-PaperMod
 
 Hugo 的主题通常存放在项目目录中的 `themes` 文件夹里。
 
-例如：  
+例如：
+
+```text
 xiong-blog
 ├── content
 ├── themes
 ├── hugo.toml
 └── ...
+```
 
 其中：
 
