@@ -1,6 +1,7 @@
 baseURL = 'https://daxiong886.github.io/xiong-blog/'
 title = 'Lingzhi的博客'
 theme = 'PaperMod'
+
 [params]
     mainSections = ["post"]
 
@@ -9,4 +10,17 @@ theme = 'PaperMod'
     ShowBreadCrumbs = true
 
 [page]
-  sortBy = "weight"
+    sortBy = "weight"
+
+
+[[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 20
+
+[[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 30
