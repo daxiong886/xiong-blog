@@ -1,0 +1,28 @@
+{{- if and (eq .Kind "page") (ne .Layout "archives") -}}
+<div id="reading-progress" class="reading-progress" role="progressbar" aria-label="阅读进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+<script>
+  (() => {
+    const progress = document.getElementById('reading-progress');
+    let scheduled = false;
+
+    const updateProgress = () => {
+      const documentHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const percentage = documentHeight > 0 ? Math.min(window.scrollY / documentHeight, 1) : 0;
+      progress.style.transform = `scaleX(${percentage})`;
+      progress.setAttribute('aria-valuenow', Math.round(percentage * 100));
+      scheduled = false;
+    };
+
+    const scheduleUpdate = () => {
+      if (!scheduled) {
+        scheduled = true;
+        window.requestAnimationFrame(updateProgress);
+      }
+    };
+
+    window.addEventListener('scroll', scheduleUpdate, { passive: true });
+    window.addEventListener('resize', scheduleUpdate);
+    scheduleUpdate();
+  })();
+</script>
+{{- end -}}
