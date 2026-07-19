@@ -8,11 +8,16 @@
 
 .home-info .entry-header h1 {
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  font-size: clamp(2.4rem, 3.6vw, 3.8rem);
+  font-size: clamp(2.2rem, 3.2vw, 3.35rem);
   font-weight: 650;
   letter-spacing: -0.045em;
-  line-height: 1.08;
+  line-height: 1.2;
   text-wrap: balance;
+}
+
+.home-info .entry-header {
+  overflow: visible;
+  padding-block: 0.08em 0.12em;
 }
 
 .post-content a {
