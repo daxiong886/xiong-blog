@@ -19,8 +19,8 @@ enableRobotsTXT = true
     ShowShareButtons = true
 
     [params.homeInfoParams]
-        Title = '你好，我是 Lingzhi 👋'
-        Content = '这里记录学习、经历与思考，也收藏生活中值得记住的片段。'
+        Title = '你好，我是 Lingzhi'
+        Content = '在这里，记录一路走来的见闻、学习，以及那些未曾消失的念头。'
 
     [params.assets]
         favicon = 'favicon.svg'
