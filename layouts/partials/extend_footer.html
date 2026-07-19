@@ -26,3 +26,36 @@
   })();
 </script>
 {{- end -}}
+<script>
+  (() => {
+    const cards = document.querySelectorAll('.post-entry');
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    if (!cards.length) return;
+
+    cards.forEach((card) => {
+      const release = () => card.classList.remove('is-pressed');
+
+      card.addEventListener('pointerdown', () => card.classList.add('is-pressed'));
+      card.addEventListener('pointerup', release);
+      card.addEventListener('pointercancel', release);
+      card.addEventListener('pointerleave', release);
+    });
+
+    if (reduceMotion || !('IntersectionObserver' in window)) return;
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('is-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    cards.forEach((card) => {
+      card.classList.add('card-reveal');
+      observer.observe(card);
+    });
+  })();
+</script>
