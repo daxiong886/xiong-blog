@@ -1,0 +1,11 @@
+::selection {
+  background: color-mix(in srgb, var(--primary) 24%, transparent);
+}
+
+.home-info .entry-content {
+  max-width: 42rem;
+}
+
+.post-content a {
+  text-underline-offset: 0.18em;
+}

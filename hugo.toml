@@ -1,13 +1,40 @@
 baseURL = 'https://daxiong886.github.io/xiong-blog/'
 title = 'Lingzhi的博客'
 theme = 'PaperMod'
+defaultContentLanguage = 'zh-cn'
+enableRobotsTXT = true
 
 [params]
+    env = 'production'
+    description = '记录学习、经历与思考。'
+    author = 'Lingzhi'
     mainSections = ["post"]
 
+    defaultTheme = 'auto'
     ShowReadingTime = true
     ShowPostTags = true
     ShowBreadCrumbs = true
+    ShowPostNavLinks = true
+    ShowCodeCopyButtons = true
+    ShowShareButtons = true
+
+    [params.homeInfoParams]
+        Title = '你好，我是 Lingzhi 👋'
+        Content = '这里记录学习、经历与思考，也收藏生活中值得记住的片段。'
+
+    [params.assets]
+        favicon = 'favicon.svg'
+        favicon16x16 = 'favicon.svg'
+        favicon32x32 = 'favicon.svg'
+        apple_touch_icon = 'favicon.svg'
+        safari_pinned_tab = 'favicon.svg'
+
+[[params.socialIcons]]
+    name = 'github'
+    url = 'https://github.com/daxiong886'
+
+[outputs]
+    home = ['HTML', 'RSS', 'JSON']
 
 [page]
     sortBy = "weight"
@@ -24,3 +51,9 @@ theme = 'PaperMod'
     name = "标签"
     url = "/tags/"
     weight = 30
+
+[[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 40

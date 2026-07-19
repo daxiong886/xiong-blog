@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Tags on Lingzhi的博客</title>
-    <link>https://xiong-blog.netlify.app/tags/</link>
-    <description>Recent content in Tags on Lingzhi的博客</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="https://xiong-blog.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Tags on Lingzhi的博客</title><link>https://daxiong886.github.io/xiong-blog/tags/</link><description>Recent content in Tags on Lingzhi的博客</description><generator>Hugo</generator><language>zh-cn</language><lastBuildDate>Sun, 12 Jul 2026 13:46:38 +0800</lastBuildDate><atom:link href="https://daxiong886.github.io/xiong-blog/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub Pages</title><link>https://daxiong886.github.io/xiong-blog/tags/github-pages/</link><pubDate>Sun, 12 Jul 2026 13:46:38 +0800</pubDate><guid>https://daxiong886.github.io/xiong-blog/tags/github-pages/</guid><description/></item><item><title>Hugo</title><link>https://daxiong886.github.io/xiong-blog/tags/hugo/</link><pubDate>Sun, 12 Jul 2026 13:46:38 +0800</pubDate><guid>https://daxiong886.github.io/xiong-blog/tags/hugo/</guid><description/></item><item><title>博客搭建</title><link>https://daxiong886.github.io/xiong-blog/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link><pubDate>Sun, 12 Jul 2026 13:46:38 +0800</pubDate><guid>https://daxiong886.github.io/xiong-blog/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid><description/></item><item><title>技术记录</title><link>https://daxiong886.github.io/xiong-blog/tags/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/</link><pubDate>Sun, 12 Jul 2026 13:46:38 +0800</pubDate><guid>https://daxiong886.github.io/xiong-blog/tags/%E6%8A%80%E6%9C%AF%E8%AE%B0%E5%BD%95/</guid><description/></item></channel></rss>
