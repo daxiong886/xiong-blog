@@ -6,14 +6,37 @@
   max-width: 42rem;
 }
 
+.home-info .entry-header h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-size: clamp(2.4rem, 3.6vw, 3.8rem);
+  font-weight: 650;
+  letter-spacing: -0.045em;
+  line-height: 1.08;
+  text-wrap: balance;
+}
+
 .post-content a {
   text-underline-offset: 0.18em;
 }
 
-@keyframes home-intro-reveal {
+@keyframes home-title-reveal {
   from {
     opacity: 0;
-    transform: translateY(14px);
+    filter: blur(6px);
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes home-detail-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
   }
 
   to {
@@ -23,19 +46,27 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .home-info .entry-header,
+  .home-info .entry-header h1,
   .home-info .entry-content,
   .home-info .social-icons {
     opacity: 0;
-    animation: home-intro-reveal 720ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .home-info .entry-header h1 {
+    animation: home-title-reveal 1350ms cubic-bezier(0.16, 1, 0.3, 1) 80ms both;
+  }
+
+  .home-info .entry-content,
+  .home-info .social-icons {
+    animation: home-detail-reveal 900ms cubic-bezier(0.16, 1, 0.3, 1) both;
   }
 
   .home-info .entry-content {
-    animation-delay: 120ms;
+    animation-delay: 520ms;
   }
 
   .home-info .social-icons {
-    animation-delay: 240ms;
+    animation-delay: 760ms;
   }
 }
 
