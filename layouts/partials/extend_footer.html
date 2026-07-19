@@ -42,7 +42,7 @@
       card.addEventListener('pointerleave', release);
     });
 
-    if (reduceMotion || !('IntersectionObserver' in window)) return;
+    if (reduceMotion || !document.documentElement.classList.contains('card-reveal-enabled')) return;
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
@@ -54,7 +54,6 @@
     }, { threshold: 0.12 });
 
     cards.forEach((card) => {
-      card.classList.add('card-reveal');
       observer.observe(card);
     });
   })();

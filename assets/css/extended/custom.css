@@ -101,12 +101,12 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .post-entry.card-reveal {
+  html.card-reveal-enabled .post-entry {
     opacity: 0;
     transform: translateY(16px);
   }
 
-  .post-entry.card-reveal.is-visible {
+  html.card-reveal-enabled .post-entry.is-visible {
     opacity: 1;
     transform: translateY(0);
   }

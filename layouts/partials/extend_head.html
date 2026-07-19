@@ -1,0 +1,8 @@
+{{- /* PaperMod hard-codes PNG MIME types for size-specific icons. Add valid SVG candidates without forking the theme. */ -}}
+<link rel="icon" type="image/svg+xml" sizes="16x16" href="{{ "favicon.svg" | absURL }}">
+<link rel="icon" type="image/svg+xml" sizes="32x32" href="{{ "favicon.svg" | absURL }}">
+<script>
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches && 'IntersectionObserver' in window) {
+    document.documentElement.classList.add('card-reveal-enabled');
+  }
+</script>
