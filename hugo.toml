@@ -1,5 +1,5 @@
 baseURL = 'https://daxiong886.github.io/xiong-blog/'
-title = 'Linz的博客'
+title = 'Linz's Blog'
 theme = 'PaperMod'
 defaultContentLanguage = 'zh-cn'
 enableRobotsTXT = true
