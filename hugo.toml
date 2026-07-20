@@ -7,7 +7,7 @@ enableRobotsTXT = true
 [params]
     env = 'production'
     description = '记录学习、经历与思考。'
-    author = 'Lingzhi'
+    author = 'Linz'
     mainSections = ["post"]
 
     defaultTheme = 'auto'
@@ -19,7 +19,7 @@ enableRobotsTXT = true
     ShowShareButtons = true
 
     [params.homeInfoParams]
-        Title = '你好，我是 Lingzhi'
+        Title = '你好，我是 Linz'
         Content = '在这里，记录一路走来的见闻、学习，以及那些未曾消失的念头。'
 
     [params.assets]
