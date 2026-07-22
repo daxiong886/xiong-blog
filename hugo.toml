@@ -8,6 +8,7 @@ enableRobotsTXT = true
     env = 'production'
     description = '记录学习、经历与思考。'
     author = 'Linz'
+    images = ['images/social-cover.png']
     mainSections = ["post"]
 
     defaultTheme = 'auto'
@@ -17,6 +18,15 @@ enableRobotsTXT = true
     ShowPostNavLinks = true
     ShowCodeCopyButtons = true
     ShowShareButtons = true
+
+    [params.fuseOpts]
+        isCaseSensitive = false
+        shouldSort = true
+        location = 0
+        distance = 1000
+        threshold = 0.35
+        minMatchCharLength = 1
+        keys = ['title', 'permalink', 'summary', 'content']
 
     [params.homeInfoParams]
         Title = '你好，我是 Linz'
@@ -41,6 +51,12 @@ enableRobotsTXT = true
 
 
 [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 10
+
+[[menu.main]]
     identifier = "categories"
     name = "分类"
     url = "/categories/"
@@ -57,3 +73,9 @@ enableRobotsTXT = true
     name = "归档"
     url = "/archives/"
     weight = 40
+
+[[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 50

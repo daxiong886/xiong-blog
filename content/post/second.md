@@ -4,6 +4,8 @@ draft = false
 title = '为什么要写博客'
 summary = '学习 Tairan 和 Sinya,记录自己的一切所思所想。'
 weight = 2
+tags = ['写作', '思考']
+categories = ['思考随笔']
 +++
 很多年前的自己，我已经记不清了。
 

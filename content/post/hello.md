@@ -4,6 +4,8 @@ draft = false
 title = '一切的开始'
 summary = '关于开始记录这件事'
 weight = 1
+tags = ['开始', '生活记录']
+categories = ['思考随笔']
 +++
 
 21岁，这是我的第一篇博客。
