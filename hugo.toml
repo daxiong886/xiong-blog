@@ -33,10 +33,10 @@ enableRobotsTXT = true
         Content = '在这里，记录一路走来的见闻、学习，以及那些未曾消失的念头。'
 
     [params.assets]
-        favicon = 'favicon.ico'
-        favicon16x16 = 'favicon-16x16.png'
-        favicon32x32 = 'favicon-32x32.png'
-        apple_touch_icon = 'apple-touch-icon.png'
+        favicon = 'favicon.ico?v=20260914'
+        favicon16x16 = 'favicon-16x16.png?v=20260914'
+        favicon32x32 = 'favicon-32x32.png?v=20260914'
+        apple_touch_icon = 'apple-touch-icon.png?v=20260914'
         safari_pinned_tab = 'safari-pinned-tab.svg'
 
 [[params.socialIcons]]
