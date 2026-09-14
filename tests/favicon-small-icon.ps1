@@ -1,6 +1,6 @@
 param(
     [string]$IconPath = (Join-Path $PSScriptRoot '..\static\favicon-32x32.png'),
-    [string]$SourcePath = (Join-Path $PSScriptRoot '..\static\favicon.png')
+    [string]$SourcePath = (Join-Path $PSScriptRoot '..\static\apple-touch-icon.png')
 )
 
 $ErrorActionPreference = 'Stop'
