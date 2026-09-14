@@ -35,10 +35,10 @@ enableRobotsTXT = true
     [params.assets]
         # Use the tested PNG for the generic icon link: the previous ICO file
         # decodes blank in Chromium-based browsers at tab size.
-        favicon = 'favicon-32x32.png?v=20260916'
-        favicon16x16 = 'favicon-16x16.png?v=20260916'
-        favicon32x32 = 'favicon-32x32.png?v=20260916'
-        apple_touch_icon = 'apple-touch-icon.png?v=20260916'
+        favicon = 'favicon-32x32.png?v=20260917'
+        favicon16x16 = 'favicon-16x16.png?v=20260917'
+        favicon32x32 = 'favicon-32x32.png?v=20260917'
+        apple_touch_icon = 'apple-touch-icon.png?v=20260917'
         safari_pinned_tab = 'safari-pinned-tab.svg'
 
 [[params.socialIcons]]
